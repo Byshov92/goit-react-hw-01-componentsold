@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import css from '../statistics/Statistics.module.css';
 
 export const StatisticsItem = ({ label, percentage }) => {
@@ -12,7 +12,7 @@ export const StatisticsItem = ({ label, percentage }) => {
 function random() {
     return Math.floor(Math.random() * 256);
 }
-StatisticsItem.propTypes = {
-    label: PropTypes.string.isRequired,
-    percentage: PropTypes.number.isRequired
-}
+// StatisticsItem.propTypes = {
+//     label: PropTypes.string.isRequired,
+//     percentage: PropTypes.number.isRequired
+// }
