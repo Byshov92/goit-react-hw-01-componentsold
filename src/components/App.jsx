@@ -1,6 +1,8 @@
 import { Profile } from "./profile/Profile";
-import user from '../data/user.json'
 import { Statistics } from "./statistics/Statistics";
+
+
+import user from '../data/user.json'
 import data from '../data/data.json';
 
 
