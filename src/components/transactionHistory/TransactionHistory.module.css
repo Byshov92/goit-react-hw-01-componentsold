@@ -1,0 +1,25 @@
+table,
+th,
+td {
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(1, 213, 255);
+}
+
+.transactionHistory {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.typeUp::first-letter {
+    text-transform: uppercase;
+}
+
+tbody:nth-child(odd) {
+    background-color: #c0c0c0;
+}
